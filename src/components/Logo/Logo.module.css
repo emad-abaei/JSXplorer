@@ -1,0 +1,37 @@
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+.logoLink span {
+  font-size: 3rem;
+  text-transform: lowercase;
+  color: #3b82f6;
+  font-family: "Orbitron";
+  font-weight: 400;
+}
+
+.logoLink strong {
+  text-transform: uppercase;
+  color: #3b82f6;
+  font-weight: 900;
+}
+
+.logo {
+  width: 60px;
+  max-width: 60px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .logoLink {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logoLink span {
+    font-size: 2.5rem;
+  }
+}

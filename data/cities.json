@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "cityName": "Monaco",
+      "country": "Monaco",
+      "countryIsoCode": "MC",
+      "date": "2025-01-04T07:00:48.967Z",
+      "notes": "",
+      "position": {
+        "lat": 43.73290248118248,
+        "lng": 7.418518066406251
+      },
+      "id": "xQXzTsR"
+    },
+    {
+      "cityName": "Cape Town",
+      "country": "South Africa",
+      "countryIsoCode": "ZA",
+      "date": "2025-01-04T07:02:14.423Z",
+      "notes": "",
+      "position": {
+        "lat": -33.93880275084579,
+        "lng": 18.454284667968754
+      },
+      "id": "rPUJG7Z"
+    },
+    {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "countryIsoCode": "JP",
+      "date": "2025-01-04T07:04:59.365Z",
+      "notes": "",
+      "position": {
+        "lat": 35.64836915737426,
+        "lng": 139.77905273437503
+      },
+      "id": "Ow-jydp"
+    },
+    {
+      "cityName": "Rome",
+      "country": "Italy",
+      "countryIsoCode": "IT",
+      "date": "2025-01-04T07:05:18.545Z",
+      "notes": "",
+      "position": {
+        "lat": 41.86956082699455,
+        "lng": 12.502441406250002
+      },
+      "id": "TdGKI-f"
+    },
+    {
+      "cityName": "Oklahoma City",
+      "country": "United States of America (the)",
+      "countryIsoCode": "US",
+      "date": "2025-01-09T12:00:06.951Z",
+      "notes": "",
+      "position": {
+        "lat": 35.567980458012094,
+        "lng": -97.44873046875001
+      },
+      "id": "iU449RQ"
+    }
+  ]
+}

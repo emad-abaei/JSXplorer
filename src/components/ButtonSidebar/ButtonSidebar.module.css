@@ -1,0 +1,32 @@
+.sidebarBtn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebarBtn {
+    display: block;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-dark--1);
+    cursor: pointer;
+    animation: blikn 2s ease-out 2;
+  }
+}
+
+@keyframes blikn {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
