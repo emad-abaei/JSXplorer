@@ -1,50 +1,69 @@
-# React + TypeScript + Vite
+# 🌍 JSXplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JSXplorer is a modern, interactive web application for exploring cities and countries. Built with React, TypeScript, and modern state management, it provides a seamless experience for users to navigate and interact with geographical data.
 
-Currently, two official plugins are available:
+## 🖼️ Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📌 Home View
 
-## Expanding the ESLint configuration
+![Map View](screenshots/project-jsxplorer-home.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 📌 Map View
 
-- Configure the top-level `parserOptions` property like this:
+![Map View](screenshots/project-jsxplorer-map.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- 🔐 **Authentication** (Login system with a fake user)
+- 🗺️ **Interactive Map** (Powered by Leaflet)
+- 📌 **City & Country Data** (Fetched from an API or local JSON)
+- 📍 **Geolocation** (Reverse geocoding with an external API)
+- ⚡ **Optimized Performance** (Lazy loading & Suspense)
+- 🔥 **Error Handling** (Error Boundaries with a custom fallback UI)
+- 📂 **Context API** (Efficient global state management)
+- 🎨 **Styled Components** (CSS modules for modular styling)
+- 🚦 **Routing** (Protected routes with React Router)
+- ⚙️ **Development Server** (Powered by `json-server` for local API simulation)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🛠️ Tools & Technologies
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- ⚛️ **React** – Component-based UI development.
+- 🟦 **TypeScript** – Strong typing for reliability.
+- 🌍 **React Router** – Navigation between different views.
+- 🗺 **Leaflet.js** – Interactive map rendering.
+- 🔥 **Vite** – Fast development and build process.
+- 🏗 **Context API & Reducers** – State management.
+
+## 🔗 Demo
+
+- 🌍 [Live Demo](#) – _Coming soon! Stay tuned._
+
+## 🧪 Testing
+
+- Tests are not implemented yet, but they will be added soon using **Vitest** and **React Testing Library** to ensure reliability and maintainability.
+
+## 📂 Setup & Installation
+
+1️⃣ Clone the repository:
+git clone https://github.com/emad-abaei/JSXplorer.git
+
+2️⃣ Navigate to the project directory:
+cd JSXplorer
+
+3️⃣ Install dependencies:
+npm install
+
+4️⃣ Start the json server:
+npm run server
+
+5️⃣ Start the development server:
+npm run dev
+
+## 📩 Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+## 📜 License
+
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
+This project is licensed under the MIT License.
