@@ -9,8 +9,14 @@ interface LogoProps {
 function Logo({ to = "/" }: LogoProps) {
   return (
     <Link to={to} className={styles.logoLink}>
-      <img src='/jsxplorer-logo.png' alt='JSXplorer logo' className={styles.logo} />
-      <span><strong>JSX</strong>plorer</span>
+      <img
+        src='/jsxplorer-logo.png'
+        alt='JSXplorer logo - click to go home'
+        className={styles.logo}
+      />
+      <span>
+        <strong>JSX</strong>plorer
+      </span>
     </Link>
   );
 }
