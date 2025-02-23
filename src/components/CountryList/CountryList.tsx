@@ -28,7 +28,7 @@ function CountryList() {
     return <Message message='Add your first city by clicking on the map.' />;
 
   return (
-    <ul className={styles.countryList}>
+    <ul className={styles.countryList} aria-label='List of visited countries'>
       {uniqueCountries.map((country) => (
         <CountryItem
           country={country.country}
