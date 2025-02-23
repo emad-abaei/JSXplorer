@@ -49,7 +49,8 @@ function City() {
         <a
           href={`https://en.wikipedia.org/wiki/${cityName}`}
           target='_blank'
-          rel='noreferrer'>
+          rel='noopener noreferrer'
+          aria-label={`Learn more about ${cityName} on Wikipedia (opens in a new tab)`}>
           Check out {cityName} on Wikipedia &rarr;
         </a>
       </div>
