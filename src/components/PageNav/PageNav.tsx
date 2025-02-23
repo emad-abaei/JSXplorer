@@ -25,13 +25,19 @@ function PageNav() {
       <Logo />
 
       {isSmallScreen && (
-        <button className={styles.menuBtn} onClick={handleMenu}>
+        <button
+          className={styles.menuBtn}
+          onClick={handleMenu}
+          aria-label='Toggle navigation menu'
+          aria-expanded={isMenuOpen}>
           {!isMenuOpen ? <IoMenu size={30} /> : <IoClose size={30} />}
         </button>
       )}
 
       {isSmallScreen && (
-        <ul className={`${isMenuOpen ? styles.open : styles.close} `}>
+        <ul
+          className={`${isMenuOpen ? styles.open : styles.close} `}
+          role='menu'>
           {links.map((link) => (
             <li key={link.path}>
               <NavLink to={link.path} className={link.className}>
