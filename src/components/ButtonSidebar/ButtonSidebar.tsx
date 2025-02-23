@@ -6,7 +6,11 @@ function ButtonSidebar() {
   const { isSidebarOpen, toggleSidebar } = useSidebar();
 
   return (
-    <button className={styles.sidebarBtn} onClick={toggleSidebar}>
+    <button
+      className={styles.sidebarBtn}
+      onClick={toggleSidebar}
+      aria-label={isSidebarOpen ? "Collapse sidebar" : "Expand sidebar"}
+      aria-expanded={isSidebarOpen}>
       {isSidebarOpen ? (
         <HiChevronDoubleLeft size={14} color='#fff' />
       ) : (
