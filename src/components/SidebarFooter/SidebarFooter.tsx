@@ -4,7 +4,9 @@ function SidebarFooter() {
   return (
     <footer className={styles.footer}>
       <p className={styles.copyright}>
-        &copy; Copyright {new Date().getFullYear()} by JSXplorer Co.
+        <small>
+          &copy; Copyright {new Date().getFullYear()} by JSXplorer Co.
+        </small>
       </p>
     </footer>
   );
