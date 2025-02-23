@@ -7,9 +7,18 @@ export default function Homepage() {
     <main className={styles.homepage}>
       <PageNav />
       <section>
-        <h1>Pin Your Journey, Relive the Adventure</h1>
-        <h2>Map your travels, cherish your memories, and share your story with the world. From bustling cities to hidden gems, keep every adventure alive and inspire others to follow in your footsteps.</h2>
-        <Link to='/login' className='cta'>
+        <header>
+          <h1>Pin Your Journey, Relive the Adventure</h1>
+          <h2>
+            Map your travels, cherish your memories, and share your story with
+            the world. From bustling cities to hidden gems, keep every adventure
+            alive and inspire others to follow in your footsteps.
+          </h2>
+        </header>
+        <Link
+          to='/login'
+          className='cta'
+          aria-label='Start tracking your journey'>
           Start tracking now
         </Link>
       </section>
