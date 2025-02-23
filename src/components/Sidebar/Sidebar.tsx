@@ -10,13 +10,17 @@ function Sidebar() {
   const { isSidebarOpen } = useSidebar();
 
   return (
-    <div className={`${styles.sidebar} ${isSidebarOpen && styles.active}`}>
+    <aside
+      className={`${styles.sidebar} ${isSidebarOpen && styles.active}`}
+      role='complementary'
+      aria-labelledby='sidebar-title'
+      aria-expanded={isSidebarOpen}>
       <Logo />
       <AppNav />
       <Outlet />
       <ButtonSidebar />
       <SidebarFooter />
-    </div>
+    </aside>
   );
 }
 
