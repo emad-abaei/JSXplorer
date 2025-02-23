@@ -32,7 +32,8 @@ function Map() {
         center={mapPosition}
         zoom={6}
         scrollWheelZoom={true}
-        className={styles.map}>
+        className={styles.map}
+        aria-label='Interactive map'>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
