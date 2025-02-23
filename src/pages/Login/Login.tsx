@@ -28,10 +28,11 @@ export default function Login() {
         <div className={styles.row}>
           <label htmlFor='email'>Email address</label>
           <input
-            type='text'
+            type='email'
             id='email'
             name='email'
             autoComplete='off'
+            aria-required='true'
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
@@ -44,6 +45,7 @@ export default function Login() {
             id='password'
             name='password'
             autoComplete='new-password'
+            aria-required='true'
             onChange={(e) => setPassword(e.target.value)}
             value={password}
           />
