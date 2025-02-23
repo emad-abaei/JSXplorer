@@ -14,8 +14,8 @@ function AppLayout() {
       <Sidebar />
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         <Map />
+        {isAuthenticated && <User />}
       </ErrorBoundary>
-      {isAuthenticated && <User />}
     </div>
   );
 }

@@ -32,9 +32,17 @@ function User() {
   return (
     <div
       className={`${styles.user} ${isUserOpen && isSmallScreen ? styles.open : ""}`}>
-      <img src={user?.avatar} alt={user?.name} onClick={toggleUser} />
+      <img
+        src={user?.avatar}
+        alt={user?.name}
+        onClick={toggleUser}
+        role='button'
+        aria-label='Toggle user menu'
+      />
       <span>Welcome, {user?.name}</span>
-      <button onClick={handleClick}>Logout</button>
+      <button onClick={handleClick} aria-label='Log out of your account'>
+        Logout
+      </button>
     </div>
   );
 }
