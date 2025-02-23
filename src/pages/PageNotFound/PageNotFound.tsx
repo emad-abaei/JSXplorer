@@ -4,12 +4,12 @@ import styles from "./PageNotFound.module.css";
 export default function PageNotFound() {
   return (
     <main className={styles.notFound}>
-      <div>
+      <h1>
         <span>404</span>
         <span>404</span>
-      </div>
+      </h1>
       <h2>Page not found</h2>
-      <Link to='/' className='cta'>
+      <Link to='/' className='cta' aria-label='Go back to the homepage'>
         back to home
       </Link>
     </main>

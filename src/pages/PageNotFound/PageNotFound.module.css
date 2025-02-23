@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.notFound div {
+.notFound h1 {
   position: relative;
   line-height: 1;
   display: flex;
