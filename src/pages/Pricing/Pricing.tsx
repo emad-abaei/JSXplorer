@@ -20,7 +20,7 @@ export default function Product() {
         </div>
         <img
           src='img-2.webp'
-          alt="bird's eye view photography of boat on body of water"
+          alt="A boat captured from a bird's-eye view on blue waters"
         />
       </section>
     </main>
