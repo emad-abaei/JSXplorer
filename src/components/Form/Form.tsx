@@ -103,6 +103,7 @@ function Form() {
           id='cityName'
           onChange={(e) => handleCityName(e)}
           value={cityName}
+          aria-label='Enter the city name'
         />
         <Flag
           country={countryName}
@@ -112,7 +113,9 @@ function Form() {
       </div>
 
       <div className={styles.row}>
-        <label htmlFor='date'>When did you go to {cityName}?</label>
+        <label id='date-label' htmlFor='date'>
+          When did you go to {cityName}?
+        </label>
         {/* --- Workaround for TypeScript type incompatibility with react-datepicker.
         --- The props are temporarily cast to unknown and then to DatePickerProps to satisfy both TypeScript and ESLint. 
         --- This ensures type safety while avoiding explicit use of "any". */}
@@ -121,14 +124,20 @@ function Form() {
             id: "date",
             selected: date,
             onChange: (date: Date | null) => handleDate(date),
-            dateFormat: "MM/dd/yyyy"
+            dateFormat: "MM/dd/yyyy",
+            "aria-labelledby": "date-label"
           } as unknown as DatePickerProps)}
         />
       </div>
 
       <div className={styles.row}>
         <label htmlFor='notes'>Notes about your trip to {cityName}</label>
-        <textarea id='notes' onChange={(e) => handleNotes(e)} value={notes} />
+        <textarea
+          id='notes'
+          onChange={(e) => handleNotes(e)}
+          value={notes}
+          aria-label='Enter notes about your trip'
+        />
       </div>
 
       <div className={styles.buttons}>
