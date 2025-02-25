@@ -25,7 +25,8 @@ function Flag({
       onError={(e) => (e.currentTarget.src = fallbackSrc)}
       className={`${styles.img} ${className}`}
       style={{ maxWidth: `${size}px`, height: `${Number(size) * 0.75}px` }}
-      alt={country || "Unknown Country"}
+      alt={country ? `${country} flag` : ""}
+      aria-hidden={!country}
     />
   );
 }
