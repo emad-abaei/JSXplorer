@@ -13,12 +13,12 @@ interface CityItemProps {
 
 function CityItem({ city }: CityItemProps) {
   const { cityName, country, countryIsoCode, date, id } = city;
-
   const { currentCity, deleteCity } = useCities();
 
   function handleClick(e: MouseEvent): void {
     e.preventDefault();
-    if (window.confirm("Are you sure?")) deleteCity(id);
+    if (window.confirm(`Are you sure you want to delete ${cityName}?`))
+      deleteCity(id);
   }
 
   return (
