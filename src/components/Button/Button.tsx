@@ -9,10 +9,7 @@ interface ButtonProps {
 
 function Button({ children, onClick, type = "primary" }: ButtonProps) {
   return (
-    <button
-      className={`${styles.btn} ${styles[type]}`}
-      onClick={onClick}
-      type='button'>
+    <button className={`${styles.btn} ${styles[type]}`} onClick={onClick}>
       {children}
     </button>
   );
