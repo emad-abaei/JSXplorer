@@ -8,9 +8,9 @@ interface CountryItemProps {
 
 function CountryItem({ country, countryIsoCode }: CountryItemProps) {
   return (
-    <li className={styles.countryItem}>
+    <li className={styles.countryItem} role='listitem'>
       <Flag country={country} countryIsoCode={countryIsoCode} size='28' />
-      <span>{country}</span>
+      <p>{country}</p>
     </li>
   );
 }

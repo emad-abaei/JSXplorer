@@ -13,7 +13,7 @@
   border-left: 5px solid var(--color-brand--1);
 }
 
-.countryItem span {
+.countryItem p {
   font-size: 1.5rem;
   margin-top: 0.5rem;
 
