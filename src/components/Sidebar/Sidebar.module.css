@@ -33,4 +33,11 @@
   .sidebar.active {
     transform: translateX(0);
   }
+
+  .sidebar > p {
+    min-width: 305px;
+    max-width: 305px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }
