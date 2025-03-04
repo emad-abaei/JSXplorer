@@ -59,7 +59,7 @@ const reducer: React.Reducer<State, Action> = (state, action): State => {
       return { ...state, isLoading: false, error: action.payload };
 
     default:
-      throw new Error("Unknown action tyep");
+      throw new Error("Unknown action type");
   }
 };
 
