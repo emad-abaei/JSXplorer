@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .countryItem span {
-    max-width: 80px;
+  .countryItem p {
+    max-width: 90%;
   }
 }

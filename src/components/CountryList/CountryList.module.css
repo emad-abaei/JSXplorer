@@ -15,6 +15,6 @@
   .countryList {
     min-width: 305px;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-template-columns: 1fr;
   }
 }
