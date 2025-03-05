@@ -122,6 +122,15 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+  label {
+    font-size: 1.4rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1.4rem;
+  }
+
   .product {
     margin: 0;
     min-height: 100vh;
