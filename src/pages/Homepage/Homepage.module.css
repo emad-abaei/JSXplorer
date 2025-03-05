@@ -40,6 +40,10 @@
   margin-bottom: 2.5rem;
 }
 
+.homepage br {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .homepage {
     margin: 0;
@@ -56,5 +60,9 @@
   .homepage h2 {
     width: 90%;
     font-size: 1.5rem;
+  }
+
+  .homepage br {
+    display: block;
   }
 }

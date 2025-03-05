@@ -8,7 +8,9 @@ export default function Homepage() {
       <PageNav />
       <section>
         <header>
-          <h1>Pin Your Journey, Relive the Adventure</h1>
+          <h1>
+            Pin Your Journey, <br /> Relive the Adventure
+          </h1>
           <h2>
             Map your travels, cherish your memories, and share your story with
             the world. From bustling cities to hidden gems, keep every adventure
