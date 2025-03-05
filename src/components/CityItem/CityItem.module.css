@@ -54,6 +54,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .cityItem,
+  .cityItem:link,
+  .cityItem:visited {
+    gap: 1.4rem;
+    padding: 1rem 1.5rem;
+  }
+
   .name {
     font-size: 1.5rem;
     max-width: 80px;
