@@ -16,8 +16,8 @@ function Flag({
 }: FlagProps) {
   if (!countryIsoCode) return null;
 
-  const flagSrc = `${FLAG_URL}/w80/${countryIsoCode?.toLowerCase()}.png`;
-  const fallbackSrc = `${FLAG_URL}/w80/un.png`; // United Nations flag as fallback
+  const flagSrc = `${FLAG_URL}/w160/${countryIsoCode?.toLowerCase()}.png`;
+  const fallbackSrc = `${FLAG_URL}/w160/un.png`; // United Nations flag as fallback
 
   return (
     <img
