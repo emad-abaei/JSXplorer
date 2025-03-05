@@ -37,3 +37,10 @@
   color: var(--color-dark--1);
   box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
 }
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.3rem;
+  }
+}
