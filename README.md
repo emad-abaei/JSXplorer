@@ -34,9 +34,9 @@ JSXplorer is a modern, interactive web application for exploring cities and coun
 - 🔥 **Vite** – Fast development and build process.
 - 🏗 **Context API & Reducers** – State management.
 
-## 🔗 Demo
+## 🔗 Live Demo
 
-- 🌍 [Live Demo](#) – _Coming soon! Stay tuned._
+- 🌍 [Try JSXplorer Now!](https://jsxplorer-emadabaei.vercel.app)
 
 ## 🧪 Testing
 
@@ -58,6 +58,14 @@ npm run server
 
 5️⃣ Start the development server:
 npm run dev
+
+## 🙌 Acknowledgments
+
+This project was originally inspired by a course from **Jonas Schmedtmann**. While the core idea comes from the course, I have made several enhancements, including:
+
+I extended the project by:  
+✅ **Migrating from JavaScript to TypeScript** for better type safety and maintainability.
+✅ **Refactoring and optimizing the codebase** for cleaner, more efficient development.
 
 ## 📩 Contributing
 
