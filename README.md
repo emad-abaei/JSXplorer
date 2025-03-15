@@ -65,6 +65,7 @@ This project was originally inspired by a course from **Jonas Schmedtmann**. Whi
 
 I extended the project by:  
 ✅ **Migrating from JavaScript to TypeScript** for better type safety and maintainability.
+
 ✅ **Refactoring and optimizing the codebase** for cleaner, more efficient development.
 
 ## 📩 Contributing
