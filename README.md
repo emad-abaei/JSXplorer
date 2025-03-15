@@ -63,7 +63,8 @@ npm run dev
 
 This project was originally inspired by a course from **Jonas Schmedtmann**. While the core idea comes from the course, I have made several enhancements, including:
 
-I extended the project by:  
+I extended the project by:
+
 ✅ **Migrating from JavaScript to TypeScript** for better type safety and maintainability.
 
 ✅ **Refactoring and optimizing the codebase** for cleaner, more efficient development.
